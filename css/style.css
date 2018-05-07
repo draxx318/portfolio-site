@@ -1,0 +1,254 @@
+html, body, .cover.box {
+  font-family: helvetica, sans-serif;
+  height: 100%;
+  background-color: #EEEEEF;
+}
+.container-fluid {
+  padding: 0;
+}
+.cover-container {
+  padding: 0;
+}
+.cover-box {
+  text-align: left;
+  vertical-align: middle;
+  background-image: url("../img/cover.jpg");
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  overflow: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cover-content {
+  position: relative;
+  top: 200px;
+  padding: 0 100px;
+}
+.cover-content > h4 > a {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: white;
+  text-decoration: underline;
+}
+.cover-content > h4 > a:hover {
+  color: #e1004b;
+}
+.navbar-main {
+  padding: 0;
+}
+.fixed-top.scrolled {
+    background-color: #fff;
+    transition: background-color .5s linear;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18);
+}
+.fixed-top.scrolled .nav-item .nav-link {
+  color: #303030;
+}
+.fixed-top.scrolled .navbar-text {
+  color: #444445 !important;
+}
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar-text {
+  line-height: 15px;
+  color: #fff !important;
+}
+.navbar-nav .nav-item .nav-link {
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  color: white;
+  padding: 0 20px;
+  font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #E1004B;
+  text-decoration: none;
+}
+.cover-content h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.cover-content h4 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.btn-contact {
+  border: 1px solid #e1004b;
+  color: white;
+}
+.btn-contact:hover {
+  color: #CC003B;
+}
+
+.btn-cover {
+  padding: 15px 30px;
+  margin-right: 20px;
+}
+.btn-group {
+    margin: 80px 20px 40px 0;
+}
+.btn-download {
+  background-color: #EEEDEE;
+  margin-top: 15px;
+}
+.btn-download:hover {
+  background-color: #EEEDEE;
+  border: 1px solid #e1004b;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.about-content {
+  padding: 50px 0 100px 0;
+  text-align: center;
+  margin-top: 30px;
+  border-bottom: 1px solid #e0e0e0;
+
+}
+.separator {
+    margin: 0 auto;
+    background: url(../img/separator.png);
+    height: 9px;
+    width: 576px;
+}
+.about-content > p {
+  font-size: 20px;
+  margin-top: 30px;
+}
+.skills-section{
+  margin-top: 50px;
+}
+.skills-container {
+  padding: 50px 40px;
+  text-align: left;
+  background-color: white;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+  margin: 40px 0;
+  font-size: 14px;
+}
+.progress-bar {
+  height: 5px;
+  border-radius: 2px;
+  background-color: #e1004b;
+}
+.progress {
+  background-color: rgba(230, 0, 79, 0.2);
+  height: 6px;
+}
+.bar-group {
+  margin: 20px 0;
+}
+.portfolio-container {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0;
+}
+.portfolio-container h1 {
+  margin-bottom: 50px;
+}
+.portfolio-item {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.portfolio-item-big {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.img-container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(48, 48, 48, 0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.img-container:hover .overlay {
+  height: 100%;
+}
+.caption {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.map-container {
+  width: 100%
+  padding: 0;
+}
+
+#map {
+  width: 99%;
+  height: 400px;
+  margin-top: 100px;
+
+}
+#contact {
+  margin-top: 100px;
+  text-align: center;
+
+}
+.form-wrapper {
+  margin-top: 30px;
+}
+.required {
+  margin-top: 10px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-pic {
+  border-radius: 50%;
+}
+.tel-number {
+  margin: 20px 0;
+}
+.social-icons [class*="fa fa-"] {
+    background-color: #8e8e8e;
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: auto 3px;
+    width: 40px;
+    font-size: 15px;
+    text-align: center;
+
+}
+.social-icons [class*="fa fa-"]:hover {
+  background-color: #E1004B;
+  text-decoration: none;
+}
+
+.footer {
+  color: #fff;
+  text-align: center;
+  background-color: #26292D;
+  padding: 15px 0;
+  margin-top: 50px;
+}
