@@ -22,8 +22,8 @@
               </button>
             <div class="collapse navbar-collapse" id="collapse-target">
 
-              <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-              <span class="navbar-text"><span class="logo-text">Mauro Sirotich</span> <br><small class="logo-subtitle">Web designer & developer</small></span>
+              <a class="navbar-brand" href="#home"><img src="img/logo.png"></a>
+              <a href="#home"><span class="navbar-text"><span class="logo-text">Mauro Sirotich</span> <br><small class="logo-subtitle">Web designer & developer</small></span></a>
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="#home">Home</a>
@@ -63,8 +63,8 @@
         <div class="col-md-10 about-content" id="about">
           <h1>About me</h1>
           <p>
-            Hello! I'm Mauro Sirotich. Junior Web Developer specializing in front end development.
-            With a background in customer relation and retail, seeking for a career change with great
+            Hello! I'm Mauro Sirotich, Junior Web Developer specializing in front end development.
+            With a background in customer relations and retail, seeking for a career change with great
             passion for web development. Well-versed in few coding languages like Javascript, Html, CSS
             and frameworks like Bootstrap and Jquery.
           </p>
@@ -178,7 +178,7 @@
       </div>
       <div class="col-md-3">
         <div class="img-container">
-          <img class="portfolio-item" src="img/img-placeholder-small.jpg">
+          <img class="portfolio-item portfolio-item2" src="img/img-placeholder-small.jpg">
           <div class="overlay">
             <div class="caption">
               <h3>Portfolio item 2</h3>
@@ -231,19 +231,28 @@
       <div class="col-md-1">
 
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 profile-img">
         <div class="info">
-        <img class="profile-pic" src="img/profilepic.jpg">
+            <img class="profile-pic" src="img/profilepic.jpg">
+        </div>
+        <div class="info tel-number">
+          <button type="button" class="btn btn-danger" href="tel:+385989972773">+385-98-997-2773</button>
+        </div>
+        <div class="info social-icons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-github"></a>
+          <a href="#" class="fa fa-skype"></a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 form-name">
         <div class="form-group">
           <label for="form_name">First name *</label>
           <input id="form_name" type="text" name="name" class="form-control" placeholder="Enter your name *" required="required" data-error="Firstname is required.">
           <div class="help-block with-errors"></div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 form-lastname">
         <div class="form-group">
             <label for="form_lastname">Last name *</label>
             <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Enter your last name *" required="required" data-error="Lastname is required.">
@@ -260,19 +269,17 @@
       <div class="col-md-1">
 
       </div>
-      <div class="col-md-4">
-        <div class="info tel-number">
-        <button type="button" class="btn btn-danger" href="tel:+385989972773">+385-98-997-2773</button>
-        </div>
+      <div class="col-md-4 number-tel">
+
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 form-bottom">
         <div class="form-group">
             <label for="form_email">Email *</label>
             <input id="form_email" type="email" name="email" class="form-control" placeholder="Enter your email *" required="required" data-error="Valid email is required.">
             <div class="help-block with-errors"></div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 form-tel form-bottom">
         <div class="form-group">
             <label for="form_phone">Phone</label>
             <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Enter your phone">
@@ -289,15 +296,10 @@
     <div class="col-md-1">
 
     </div>
-    <div class="col-md-4">
-      <div class="info social-icons">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-linkedin"></a>
-        <a href="#" class="fa fa-github"></a>
-        <a href="#" class="fa fa-skype"></a>
-      </div>
+    <div class="col-md-4 icons-social">
+
     </div>
-    <div class="col-md-6">
+    <div class="col-md-6 form-message form-bottom">
       <div class="form-group">
           <label for="form_message">Message *</label>
           <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
@@ -317,7 +319,7 @@
       <div class="col-md-4">
 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6 form-button form-bottom">
         <input type="submit" class="btn btn-danger btn-send" value="Send message">
       </div>
       <div class="col-md-1">
@@ -333,7 +335,7 @@
     <div class="col-md-4">
 
     </div>
-    <div class="col-md-6 required">
+    <div class="col-md-6 required form-required form-bottom">
       <p class="text-muted"><strong>*</strong> These fields are required.</p>
     </div>
     <div class="col-md-1">

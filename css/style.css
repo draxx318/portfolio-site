@@ -12,7 +12,7 @@ html, body, .cover.box {
 .cover-box {
   text-align: left;
   vertical-align: middle;
-  background-image: url("../img/cover.jpg");
+  background-image: url("../img/cover-blur.jpg");
   color: white;
   background-size: cover;
   height: 100vh;
@@ -210,8 +210,17 @@ html, body, .cover.box {
   text-align: center;
 
 }
+
+
+.form-name , .form-lastname {
+  max-height: 86px;
+}
 .form-wrapper {
   margin-top: 30px;
+}
+.form-bottom {
+  position: relative;
+  bottom: 130px;
 }
 .required {
   margin-top: 10px;
@@ -251,4 +260,42 @@ html, body, .cover.box {
   background-color: #26292D;
   padding: 15px 0;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 425px){
+  .btn-cover {
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 768px){
+  .navbar-collapse {
+    background-color: rgba(100, 100, 100 , 0.7);
+  }
+  .portfolio-item2 {
+    margin-top: 20px;
+  }
+  .cover-content{
+    padding: 0 30px;
+    top: 100px;
+  }
+  .cover-content > h1 {
+  font-size: 24px;
+  }
+  .cover-box {
+    text-align: center;
+  }
+  .btn-group{
+    margin-right: 0;
+  }
+  .navbar-main {
+    float: right;
+    margin: 20px 0 0 20px;
+  }
+  .fixed-top.scrolled {
+    display: none;
+  }
+  .form-bottom {
+    position: inherit;
+    bottom: 0;
+  }
 }
